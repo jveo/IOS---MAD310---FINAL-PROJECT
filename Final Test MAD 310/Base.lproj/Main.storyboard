@@ -69,7 +69,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="df6-QS-KYF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="462.31884057971018" y="-59.598214285714285"/>
+            <point key="canvasLocation" x="472" y="-60"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="9VF-Xd-cD3">
@@ -82,15 +82,33 @@
                     </tabBar>
                     <connections>
                         <segue destination="A8u-ot-fDo" kind="relationship" relationship="viewControllers" id="nX0-VV-THi"/>
+                        <segue destination="9ad-hE-cef" kind="relationship" relationship="viewControllers" id="2j5-if-Ff8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ad-8q-UD6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-447.82608695652175" y="-59.598214285714285"/>
         </scene>
+        <!--MAD Grad-->
+        <scene sceneID="nQZ-dO-1G3">
+            <objects>
+                <navigationController storyboardIdentifier="GradController" automaticallyAdjustsScrollViewInsets="NO" id="9ad-hE-cef" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="MAD Grad" image="graduationcap.circle" catalog="system" id="spe-66-Vse"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9AZ-Wn-AbR">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4u-Te-1wF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-448" y="719"/>
+        </scene>
     </scenes>
     <resources>
         <image name="cart.circle" catalog="system" width="128" height="121"/>
+        <image name="graduationcap.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
