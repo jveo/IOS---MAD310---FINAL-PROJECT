@@ -17,6 +17,7 @@
 		B44BE2C827692E8F00D762B5 /* Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44BE2C727692E8F00D762B5 /* Companies.swift */; };
 		B44BE2CA276A52A000D762B5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44BE2C9276A529F00D762B5 /* DetailViewController.swift */; };
 		B44BE2CE276C01B700D762B5 /* GraduationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44BE2CD276C01B700D762B5 /* GraduationViewController.swift */; };
+		B44BE2D0276C082F00D762B5 /* myphoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B44BE2CF276C082F00D762B5 /* myphoto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B44BE2C727692E8F00D762B5 /* Companies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companies.swift; sourceTree = "<group>"; };
 		B44BE2C9276A529F00D762B5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B44BE2CD276C01B700D762B5 /* GraduationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduationViewController.swift; sourceTree = "<group>"; };
+		B44BE2CF276C082F00D762B5 /* myphoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myphoto.jpg; path = ../../../../Downloads/myphoto.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				B44BE2B72768F74C00D762B5 /* Main.storyboard */,
 				B44BE2C527690BE500D762B5 /* Company.swift */,
 				B44BE2C727692E8F00D762B5 /* Companies.swift */,
+				B44BE2CF276C082F00D762B5 /* myphoto.jpg */,
 				B44BE2BA2768F74E00D762B5 /* Assets.xcassets */,
 				B44BE2BC2768F74E00D762B5 /* LaunchScreen.storyboard */,
 				B44BE2BF2768F74E00D762B5 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				B44BE2BE2768F74E00D762B5 /* LaunchScreen.storyboard in Resources */,
 				B44BE2BB2768F74E00D762B5 /* Assets.xcassets in Resources */,
+				B44BE2D0276C082F00D762B5 /* myphoto.jpg in Resources */,
 				B44BE2B92768F74C00D762B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
