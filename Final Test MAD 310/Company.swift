@@ -7,6 +7,20 @@
 
 import Foundation
 
+/* Creating Custome type called "Company"
+ 
+ required fields:
+     var companyName: String
+     var dunsNumber: String
+     var companyAddress: String
+     var city: String
+     var contactName: String
+     var contactEmail: String
+     var contactPhone: String
+     var product: String
+ 
+ */
+
 struct Company: Codable {
     var companyName: String
     var dunsNumber: String

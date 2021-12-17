@@ -6,7 +6,12 @@
 //
 
 import Foundation
-
+/*
+ 
+ Custome type called companies that conforms to the codable protocol
+ 
+ 
+ */
 struct Companies: Codable {
     var results: [Company]
 }
