@@ -7,8 +7,9 @@
 
 import UIKit
 import WebKit
-
+// conforms to the UIView controller
 class DetailViewController: UIViewController {
+    
     
     var webView: WKWebView!
     var detailItem: Company?
@@ -25,6 +26,20 @@ class DetailViewController: UIViewController {
             return
         }
 
+        /*
+         HTML template, this is what is going to appear on the details portion of whatever the user clicks initally
+         
+         its going to show:
+         product
+         company name
+         duns number
+         company address
+         contact name
+         contact phone
+         contact email
+         
+          will then load the html string into the webview
+         */
         let html = """
 <html>
 <head>
