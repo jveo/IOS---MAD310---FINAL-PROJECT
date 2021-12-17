@@ -12,7 +12,6 @@ class GraduationViewController: UIViewController {
     @IBOutlet weak var madGradText: UILabel!
     
     //let color = CGColor.init(genericCMYKCyan: 68, magenta: 59, yellow: 55, black: 10, alpha: 100)
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
